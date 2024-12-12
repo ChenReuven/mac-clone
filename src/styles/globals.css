@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'SF Pro';
+    src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sfprodisplay-regular-webfont.woff') format('woff');
+  }
+}
+
+:root {
+  --menu-bar-height: 24px;
+  --dock-height: 70px;
+}
+
+body {
+  @apply bg-[#1e1e1e] text-white font-['SF_Pro',sans-serif] overflow-hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.window {
+  @apply bg-white/90 backdrop-blur-xl rounded-lg shadow-2xl border border-white/20;
+}
+
+.traffic-lights button {
+  @apply w-3 h-3 rounded-full transition-colors;
+}
+
+.dock {
+  @apply fixed bottom-4 left-1/2 -translate-x-1/2 flex items-end gap-2 px-4 py-2 rounded-2xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg;
+  height: var(--dock-height);
+}
+
+.dock-item {
+  @apply relative flex items-center justify-center transition-all duration-150 ease-in-out;
+  min-width: 48px;
+  height: 48px;
+}
