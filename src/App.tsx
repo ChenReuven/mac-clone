@@ -26,7 +26,7 @@ function App() {
           onClose={() => closeWindow(window.id)}
         >
           <div className="w-[600px] h-[400px]">
-            <h2 className="text-gray-800">Welcome to macOS</h2>
+            <h2 className="text-gray-800">Welcome to Chen macOS</h2>
           </div>
         </Window>
       ))}
