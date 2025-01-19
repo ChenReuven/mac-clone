@@ -12,6 +12,14 @@ A modern React-based implementation of the macOS user interface, built with Reac
 > - About modal
 > - Window management demonstration
 
+![Screenshot 1](assets/1.jpg)
+![Screenshot 2](assets/2.jpg)
+![Screenshot 3](assets/3.jpg)
+![Screenshot 4](assets/4.jpg)
+
+### Demo Video
+https://github.com/ChenReuven/mac-clone/raw/main/assets/video.mp4
+
 ## ✨ Features
 
 - 🖥 Authentic macOS-like desktop interface
