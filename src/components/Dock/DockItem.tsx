@@ -10,7 +10,7 @@ interface DockItemProps {
 const DockItem: React.FC<DockItemProps> = ({ icon, label, isRunning }) => {
   return (
     <motion.div
-      className="dock-item group"
+      className="relative group"
       whileHover={{ scale: 1.5, y: -10 }}
       transition={{ 
         type: "spring",
@@ -19,21 +19,21 @@ const DockItem: React.FC<DockItemProps> = ({ icon, label, isRunning }) => {
         mass: 0.5
       }}
     >
-      <div className="relative w-full h-full">
+      <div className="relative w-12 h-12">
         <img
           src={icon}
           alt={label}
-          className="w-12 h-12 object-contain drop-shadow-lg"
+          className="w-full h-full object-contain drop-shadow-lg"
           draggable={false}
           loading="eager"
         />
-        <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex gap-1">
-          {isRunning && (
-            <div className="w-1 h-1 rounded-full bg-white/80" />
-          )}
-        </div>
+        {isRunning && (
+          <div className="absolute -bottom-1 left-1/2 -translate-x-1/2">
+            <div className="w-1 h-1 rounded-full bg-white" />
+          </div>
+        )}
       </div>
-      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-800/90 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity shadow-xl whitespace-nowrap">
+      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-800/90 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-xl whitespace-nowrap">
         {label}
       </div>
     </motion.div>

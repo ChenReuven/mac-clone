@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="musicGradient">
+            <stop stop-color="#FF5722" offset="0%"/>
+            <stop stop-color="#E64A19" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="url(#musicGradient)" x="16" y="16" width="96" height="96" rx="20"/>
+        <path d="M76,36 L76,76 C76,82 71,88 64,88 C57,88 52,82 52,76 C52,70 57,64 64,64 C67,64 70,65 72,68 L72,40 L76,36 Z" fill="#FFFFFF"/>
+    </g>
+</svg>

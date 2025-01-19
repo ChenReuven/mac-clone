@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="finderGradient">
+            <stop stop-color="#2196F3" offset="0%"/>
+            <stop stop-color="#1976D2" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="url(#finderGradient)" x="16" y="16" width="96" height="96" rx="20"/>
+        <path d="M64,40 C74,40 82,48 82,58 C82,68 74,76 64,76 C54,76 46,68 46,58 C46,48 54,40 64,40 Z" fill="#FFFFFF"/>
+        <path d="M40,84 C40,76 50,70 64,70 C78,70 88,76 88,84 L88,92 L40,92 L40,84 Z" fill="#FFFFFF"/>
+    </g>
+</svg>

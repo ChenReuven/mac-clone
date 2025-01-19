@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1"
+    xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="mailGradient">
+            <stop stop-color="#4CAF50" offset="0%"/>
+            <stop stop-color="#388E3C" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="url(#mailGradient)" x="16" y="16" width="96" height="96" rx="20"/>
+        <path d="M24,40 L64,64 L104,40 L104,88 L24,88 L24,40 Z" fill="#FFFFFF"/>
+        <path d="M24,40 L64,64 L104,40 L104,36 L24,36 L24,40 Z" fill="#E8F5E9"/>
+    </g>
+</svg>

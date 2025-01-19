@@ -1,27 +1,27 @@
 export const dockIcons = [
   {
-    icon: 'https://raw.githubusercontent.com/elrumo/macOS_Big_Sur_icons_replacements/master/icons/png/high-res/Finder.png',
+    icon: '/icons/finder.svg',
     label: 'Finder',
     isRunning: true
   },
   {
-    icon: 'https://raw.githubusercontent.com/elrumo/macOS_Big_Sur_icons_replacements/master/icons/png/high-res/Safari.png',
+    icon: '/icons/safari.svg',
     label: 'Safari'
   },
   {
-    icon: 'https://raw.githubusercontent.com/elrumo/macOS_Big_Sur_icons_replacements/master/icons/png/high-res/Mail.png',
+    icon: '/icons/mail.svg',
     label: 'Mail'
   },
   {
-    icon: 'https://raw.githubusercontent.com/elrumo/macOS_Big_Sur_icons_replacements/master/icons/png/high-res/Calendar.png',
+    icon: '/icons/calendar.svg',
     label: 'Calendar'
   },
   {
-    icon: 'https://raw.githubusercontent.com/elrumo/macOS_Big_Sur_icons_replacements/master/icons/png/high-res/App_Store.png',
+    icon: '/icons/app-store.svg',
     label: 'App Store'
   },
   {
-    icon: 'https://raw.githubusercontent.com/elrumo/macOS_Big_Sur_icons_replacements/master/icons/png/high-res/Music.png',
+    icon: '/icons/music.svg',
     label: 'Music'
   }
 ];
