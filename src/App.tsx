@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuBar from './components/MenuBar/MenuBar';
 import Dock from './components/Dock/Dock';
+import MenuBar from './components/MenuBar/MenuBar';
 import Window from './components/Window/Window';
 import './styles/globals.css';
 
@@ -26,7 +26,7 @@ function App() {
           onClose={() => closeWindow(window.id)}
         >
           <div className="w-[600px] h-[400px]">
-            <h2 className="text-gray-800">Welcome to Chen macOS</h2>
+            <h2 className="text-gray-800">Welcome to AI With Chen "MacOS"</h2>
           </div>
         </Window>
       ))}
